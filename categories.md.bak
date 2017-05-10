@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Categories：Categories"
+title: "Categ：Categories"
 ---
 <ul class="list-unstyled">
 {% for cat in site.categories %} 

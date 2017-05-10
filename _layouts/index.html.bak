@@ -4,8 +4,8 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="description" content="{{ page.title }} - {{ site.name }} - 作者:{{ site.author }}"/>
-    <title>{% for cat in site.all_categories %}{% if page.category == cat[0] %}Part：{{cat[1]}} - {{ site.name }}{% endif %}{% endfor %}</title>
+    <meta name="description" content="{{ page.title }} - {{ site.name }} - Author:{{ site.author }}"/>
+    <title>{{ page.title }} - {{ site.name }}</title>
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet"/>
     <!-- Custom CSS -->
@@ -60,22 +60,7 @@
       <div class="row">
         <!-- Blog Entries Column -->
         <div class="col-md-8">
-			<!-- Navi -->
-			{% for cat in site.all_categories %}{% if page.category == cat[0] %}<a href="/">Home</a>&nbsp;>&nbsp;<a href="{{cat[2]}}">{{cat[1]}}</a>&nbsp;>&nbsp;List{% endif %}{% endfor %}
-			<!-- List -->
-			<ul class="list-unstyled">
-			{% for post in site.categories[page.category] %}
-			  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-			  {% if year != y %}
-				{% assign year = y %}
-				<h2>{{ post.date | date: '%Y' }}</h2> 
-			  {% endif %}
-			  <li>
-				<h4><span>{{ post.date | date:"%Y-%m-%d" }}</span>&raquo;
-				<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
-			  </li> 
-			{% endfor %}
-			</ul>
+          {{ content }}
         </div>
         <!-- Blog Sidebar Widgets Column -->
         <div class="col-md-4">
@@ -97,6 +82,13 @@
 			<div class="row">
               {% include recent_posts.html %} 
 			</div>
+          </div>		  
+		  <!-- Blog Links Well -->
+          <div class="well">
+            <h4>
+              友情链接
+            </h4>
+            {% include friend_links.html %} 
           </div>
         </div>
       </div>
@@ -115,5 +107,4 @@
     </div>
     <!-- /.container -->
   </body>
-
 </html>
