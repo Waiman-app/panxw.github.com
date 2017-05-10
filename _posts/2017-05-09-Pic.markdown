@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Nice Day"
+date:   2017-05-09 20:17:40 +0800
+categories: Nice
+---
+
+## Try a picture  ##
+
+**Wai** Upload test.
+
+### Built exclusively for Markdown ###
+
+Enjoy first-class Markdown support with easy access to  Markdown syntax and convenient keyboard shortcuts.
+
+![](asset/human.jpg)` 
+
+### See your changes instantly with LivePreview ###
+
+Don't guess if your [hyperlink syntax](http://markdownpad.com) is correct; LivePreview will show you exactly what your document looks like every time you press a key.
+
