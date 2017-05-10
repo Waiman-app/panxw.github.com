@@ -10,13 +10,13 @@ name: "Waiman's Blog"
 url: https://waiman-app.github.io/
 domain: wwaiman-app.github.io
 all_categories: [
-["android", "Coding","/posts/android.html"], 
-["program", "English","/posts/program.html"],
-["web", "World","/posts/web.html"], 
-["linux", "Nice","/posts/linux.html"],
-["read", "Think","/posts/read.html"], 
-["other", "Life","/posts/other.html"],
-["about", "About","/about.html"]
+["android", "Android开发","/posts/android.html"], 
+["program", "软件编程","/posts/program.html"],
+["web", "Web建站","/posts/web.html"], 
+["linux", "Linux相关","/posts/linux.html"],
+["read", "读书笔记","/posts/read.html"], 
+["other", "杂记","/posts/other.html"],
+["about", "关于","/about.html"]
 ]
 
 paginate: 8
