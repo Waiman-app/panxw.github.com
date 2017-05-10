@@ -13,9 +13,13 @@ categories: Nice
 
 Enjoy first-class Markdown support with easy access to  Markdown syntax and convenient keyboard shortcuts.
 
-![](asset/human.jpg)` 
+![](https://waiman-app.github.io/assets/human.jpg)
 
 ### See your changes instantly with LivePreview ###
+
+[comment]: <> (a reference style link.)
+[//]: <> (This is also a comment.)
+
 
 Don't guess if your [hyperlink syntax](http://markdownpad.com) is correct; LivePreview will show you exactly what your document looks like every time you press a key.
 
