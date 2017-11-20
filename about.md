@@ -17,7 +17,7 @@ LinkedIn: <http://www.linkedin.com/>
 
 
 #### 3.Contract
-Email: waimanliao#outlook.com  
-QQ:   
+Email: waimanliao@outlook.com  
+
 
 ### 4.Domain For Sale 
