@@ -1,8 +1,8 @@
 ---
 layout: post
-category: Think
-title:  "人生什么更重要？[测试]"
+title:  "人生什么更重要？"
 date:   2017-5-1 10:10:00 +0800
+category:"Think"
 tags: [认知]
 ---
 ### 哪个更重要？
