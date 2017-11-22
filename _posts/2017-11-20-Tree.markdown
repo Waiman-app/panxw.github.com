@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "Nice Day"
+categories:"Think"
+title:  "The World"
 date:   2017-11-20 12:14:40 +0800
-categories: Nice
+tags: [认知]
+
 ---
 
 ## The world I understand ##
 
-It's the mind to descript the world.
+Bigger Picture in my mind
 
 
 ![](https://waiman-app.github.io/assets/Theworld201711.png)

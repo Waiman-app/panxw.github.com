@@ -8,7 +8,7 @@ author: "Wai"
 email: waimanliao#outlook.com
 name: "Waiman's Blog"
 url: https://waiman-app.github.io/
-domain: wwaiman-app.github.io
+domain: waiman-app.github.io
 all_categories: [
 ["android", "Coding","/posts/android.html"], 
 ["program", "English","/posts/program.html"],

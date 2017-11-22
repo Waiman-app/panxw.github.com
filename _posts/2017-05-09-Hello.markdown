@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Jekyll!" TEST
 date:   2017-05-09 18:17:40 +0800
-categories: jekyll update
+categories: I.T.
 ---
 
-## Hello , It's me  ##
+## How to User Jekyll with Markdown  ##
 
-**Wai** I like GitHub.
+I like GitHub.
 
 ### Built exclusively for Markdown ###
 

@@ -1,8 +1,9 @@
 ---
 layout: post
-category: "read"
+category: "Think"
 title:  "人生什么更重要？[测试]"
-tags: [阅读,人生]
+date:   2017-5-1 10:10:00 +0800
+tags: [认知]
 ---
 ### 哪个更重要？
 
